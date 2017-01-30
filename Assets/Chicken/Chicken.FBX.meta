@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 059d2a08bf4fe084894225a504012799
+timeCreated: 1483558171
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: bodyP
+    100004: Bone001
+    100006: Bone002
+    100008: Bone003
+    100010: Bone004
+    100012: Bone005
+    100014: Bone006
+    100016: //RootNode
+    100018: IK Chain001
+    100020: legL
+    100022: legLP
+    100024: legR
+    100026: legRP
+    100028: tailL
+    100030: tailM
+    100032: tailP
+    100034: tailR
+    100036: wingL
+    100038: wingLP
+    100040: wingR
+    100042: wingRP
+    400000: body
+    400002: bodyP
+    400004: Bone001
+    400006: Bone002
+    400008: Bone003
+    400010: Bone004
+    400012: Bone005
+    400014: Bone006
+    400016: //RootNode
+    400018: IK Chain001
+    400020: legL
+    400022: legLP
+    400024: legR
+    400026: legRP
+    400028: tailL
+    400030: tailM
+    400032: tailP
+    400034: tailR
+    400036: wingL
+    400038: wingLP
+    400040: wingR
+    400042: wingRP
+    2300000: legL
+    2300002: legR
+    2300004: tailL
+    2300006: tailM
+    2300008: tailR
+    2300010: wingL
+    2300012: wingR
+    3300000: legL
+    3300002: legR
+    3300004: tailL
+    3300006: tailM
+    3300008: tailR
+    3300010: wingL
+    3300012: wingR
+    4300000: body
+    4300002: wingL
+    4300004: wingR
+    4300006: tailR
+    4300008: tailM
+    4300010: tailL
+    4300012: legL
+    4300014: legR
+    7400000: Chicken_idle
+    7400002: Chicken_walk
+    7400004: Chicken_eat
+    9500000: //RootNode
+    13700000: body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Chicken_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bodyP
+        weight: 1
+      - path: bodyP/body
+        weight: 1
+      - path: bodyP/Bone001
+        weight: 1
+      - path: bodyP/Bone001/Bone002
+        weight: 1
+      - path: bodyP/Bone001/Bone002/Bone003
+        weight: 1
+      - path: bodyP/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: bodyP/Bone005
+        weight: 1
+      - path: bodyP/Bone005/Bone006
+        weight: 1
+      - path: bodyP/IK Chain001
+        weight: 1
+      - path: bodyP/tailP
+        weight: 1
+      - path: bodyP/tailP/tailL
+        weight: 1
+      - path: bodyP/tailP/tailM
+        weight: 1
+      - path: bodyP/tailP/tailR
+        weight: 1
+      - path: bodyP/wingLP
+        weight: 1
+      - path: bodyP/wingLP/wingL
+        weight: 1
+      - path: bodyP/wingRP
+        weight: 1
+      - path: bodyP/wingRP/wingR
+        weight: 1
+      - path: legLP
+        weight: 1
+      - path: legLP/legL
+        weight: 1
+      - path: legRP
+        weight: 1
+      - path: legRP/legR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chicken_walk
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bodyP
+        weight: 1
+      - path: bodyP/body
+        weight: 1
+      - path: bodyP/Bone001
+        weight: 1
+      - path: bodyP/Bone001/Bone002
+        weight: 1
+      - path: bodyP/Bone001/Bone002/Bone003
+        weight: 1
+      - path: bodyP/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: bodyP/Bone005
+        weight: 1
+      - path: bodyP/Bone005/Bone006
+        weight: 1
+      - path: bodyP/IK Chain001
+        weight: 1
+      - path: bodyP/tailP
+        weight: 1
+      - path: bodyP/tailP/tailL
+        weight: 1
+      - path: bodyP/tailP/tailM
+        weight: 1
+      - path: bodyP/tailP/tailR
+        weight: 1
+      - path: bodyP/wingLP
+        weight: 1
+      - path: bodyP/wingLP/wingL
+        weight: 1
+      - path: bodyP/wingRP
+        weight: 1
+      - path: bodyP/wingRP/wingR
+        weight: 1
+      - path: legLP
+        weight: 1
+      - path: legLP/legL
+        weight: 1
+      - path: legRP
+        weight: 1
+      - path: legRP/legR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chicken_eat
+      takeName: Take 001
+      firstFrame: 95
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bodyP
+        weight: 1
+      - path: bodyP/body
+        weight: 1
+      - path: bodyP/Bone001
+        weight: 1
+      - path: bodyP/Bone001/Bone002
+        weight: 1
+      - path: bodyP/Bone001/Bone002/Bone003
+        weight: 1
+      - path: bodyP/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: bodyP/Bone005
+        weight: 1
+      - path: bodyP/Bone005/Bone006
+        weight: 1
+      - path: bodyP/IK Chain001
+        weight: 1
+      - path: bodyP/tailP
+        weight: 1
+      - path: bodyP/tailP/tailL
+        weight: 1
+      - path: bodyP/tailP/tailM
+        weight: 1
+      - path: bodyP/tailP/tailR
+        weight: 1
+      - path: bodyP/wingLP
+        weight: 1
+      - path: bodyP/wingLP/wingL
+        weight: 1
+      - path: bodyP/wingRP
+        weight: 1
+      - path: bodyP/wingRP/wingR
+        weight: 1
+      - path: legLP
+        weight: 1
+      - path: legLP/legL
+        weight: 1
+      - path: legRP
+        weight: 1
+      - path: legRP/legR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

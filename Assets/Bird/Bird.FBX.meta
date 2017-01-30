@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 46fd5db28a754c04da1b76564bc35ee6
+timeCreated: 1485735803
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: body
+    100004: Bone006
+    100006: Bone008
+    100008: Bone009
+    100010: Bone011
+    100012: Bone012
+    100014: Bone014
+    100016: Bone015
+    100018: Bone017
+    100020: Bone018
+    100022: Bone020
+    100024: Bone021
+    100026: BoneBack
+    100028: BoneFootL
+    100030: BoneFootR
+    100032: BoneFront
+    100034: BoneTail
+    100036: BoneWingL
+    100038: BoneWingR
+    100040: footL
+    100042: footR
+    100044: pivot
+    100046: tail
+    100048: wingL
+    100050: wingR
+    400000: //RootNode
+    400002: body
+    400004: Bone006
+    400006: Bone008
+    400008: Bone009
+    400010: Bone011
+    400012: Bone012
+    400014: Bone014
+    400016: Bone015
+    400018: Bone017
+    400020: Bone018
+    400022: Bone020
+    400024: Bone021
+    400026: BoneBack
+    400028: BoneFootL
+    400030: BoneFootR
+    400032: BoneFront
+    400034: BoneTail
+    400036: BoneWingL
+    400038: BoneWingR
+    400040: footL
+    400042: footR
+    400044: pivot
+    400046: tail
+    400048: wingL
+    400050: wingR
+    4300000: tail
+    4300002: wingL
+    4300004: wingR
+    4300006: body
+    4300008: footL
+    4300010: footR
+    7400000: idle
+    7400002: takeoff
+    7400004: fly
+    9500000: //RootNode
+    13700000: body
+    13700002: footL
+    13700004: footR
+    13700006: tail
+    13700008: wingL
+    13700010: wingR
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneBack
+        weight: 1
+      - path: BoneBack/BoneTail
+        weight: 1
+      - path: BoneBack/BoneTail/Bone006
+        weight: 1
+      - path: BoneFootL
+        weight: 1
+      - path: BoneFootL/Bone017
+        weight: 1
+      - path: BoneFootL/Bone017/Bone018
+        weight: 1
+      - path: BoneFootR
+        weight: 1
+      - path: BoneFootR/Bone014
+        weight: 1
+      - path: BoneFootR/Bone014/Bone015
+        weight: 1
+      - path: BoneFront
+        weight: 1
+      - path: BoneFront/Bone020
+        weight: 1
+      - path: BoneFront/Bone020/Bone021
+        weight: 1
+      - path: BoneWingL
+        weight: 1
+      - path: BoneWingL/Bone011
+        weight: 1
+      - path: BoneWingL/Bone011/Bone012
+        weight: 1
+      - path: BoneWingR
+        weight: 1
+      - path: BoneWingR/Bone008
+        weight: 1
+      - path: BoneWingR/Bone008/Bone009
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/footL
+        weight: 1
+      - path: pivot/footR
+        weight: 1
+      - path: pivot/tail
+        weight: 1
+      - path: pivot/wingL
+        weight: 1
+      - path: pivot/wingR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: takeoff
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneBack
+        weight: 1
+      - path: BoneBack/BoneTail
+        weight: 1
+      - path: BoneBack/BoneTail/Bone006
+        weight: 1
+      - path: BoneFootL
+        weight: 1
+      - path: BoneFootL/Bone017
+        weight: 1
+      - path: BoneFootL/Bone017/Bone018
+        weight: 1
+      - path: BoneFootR
+        weight: 1
+      - path: BoneFootR/Bone014
+        weight: 1
+      - path: BoneFootR/Bone014/Bone015
+        weight: 1
+      - path: BoneFront
+        weight: 1
+      - path: BoneFront/Bone020
+        weight: 1
+      - path: BoneFront/Bone020/Bone021
+        weight: 1
+      - path: BoneWingL
+        weight: 1
+      - path: BoneWingL/Bone011
+        weight: 1
+      - path: BoneWingL/Bone011/Bone012
+        weight: 1
+      - path: BoneWingR
+        weight: 1
+      - path: BoneWingR/Bone008
+        weight: 1
+      - path: BoneWingR/Bone008/Bone009
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/footL
+        weight: 1
+      - path: pivot/footR
+        weight: 1
+      - path: pivot/tail
+        weight: 1
+      - path: pivot/wingL
+        weight: 1
+      - path: pivot/wingR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneBack
+        weight: 1
+      - path: BoneBack/BoneTail
+        weight: 1
+      - path: BoneBack/BoneTail/Bone006
+        weight: 1
+      - path: BoneFootL
+        weight: 1
+      - path: BoneFootL/Bone017
+        weight: 1
+      - path: BoneFootL/Bone017/Bone018
+        weight: 1
+      - path: BoneFootR
+        weight: 1
+      - path: BoneFootR/Bone014
+        weight: 1
+      - path: BoneFootR/Bone014/Bone015
+        weight: 1
+      - path: BoneFront
+        weight: 1
+      - path: BoneFront/Bone020
+        weight: 1
+      - path: BoneFront/Bone020/Bone021
+        weight: 1
+      - path: BoneWingL
+        weight: 1
+      - path: BoneWingL/Bone011
+        weight: 1
+      - path: BoneWingL/Bone011/Bone012
+        weight: 1
+      - path: BoneWingR
+        weight: 1
+      - path: BoneWingR/Bone008
+        weight: 1
+      - path: BoneWingR/Bone008/Bone009
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/footL
+        weight: 1
+      - path: pivot/footR
+        weight: 1
+      - path: pivot/tail
+        weight: 1
+      - path: pivot/wingL
+        weight: 1
+      - path: pivot/wingR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
